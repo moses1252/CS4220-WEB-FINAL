@@ -1,16 +1,14 @@
 {
-  "name": "npm-app",
+  "name": "npm-api",
   "version": "1.0.0",
-  "description": "A cli for searching Rick and Morty characters, locations, and episodes.",
-  "main": "cli.js",
+  "description": "wrapper around the NPM Registry API",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anthony Viramontes",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.0.0",
-    "npm-api": "file:../npm-api",
-    "yargs": "^16.2.0"
+    "superagent": "^6.1.0"
   }
 }
